@@ -49,7 +49,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div class="card-footer">
-                  <a href="#" class="btn btn-primary">
+                  <a href="https://aaronandclaire.com/15-minute-easy-japchae-recipe-korean-glass-noodles/#google_vignette" class="btn btn-primary">
                     Find Out More!
                   </a>
                 </div>
@@ -66,7 +66,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div class="card-footer">
-                  <a href="#" class="btn btn-primary">
+                  <a href="https://seonkyounglongest.com/bao-buns/" class="btn btn-primary">
                     Find Out More!
                   </a>
                 </div>
@@ -83,7 +83,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div class="card-footer">
-                  <a href="#" class="btn btn-primary">
+                  <a href="https://seonkyounglongest.com/bao-buns/" class="btn btn-primary">
                     Find Out More!
                   </a>
                 </div>
