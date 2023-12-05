@@ -9,9 +9,9 @@ export default function RootLayout() {
             <div class="row">
               <div class="col-sm-12">
                 <nav class="navbar navbar-expand-lg ">
-                  <a class="navbar-brand text-white" href="#">
+                  <button class="navbar-brand bg-dark text-white">
                     AnyMeal Review Site
-                  </a>
+                  </button>
 
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item ">
