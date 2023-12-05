@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <div>
       <section className="">
+        
         <div
           id="carouselExampleSlidesOnly"
           class="carousel slide"
