@@ -16,11 +16,22 @@ import RootLayout from "./layouts/RootLayout";
 //import Resturants, { resturantLoader } from "./pages/resturants/Resturants";
 import HelpLayout from "./layouts/HelpLayout";
 
+
+
+const data = 
+  {
+    "id": 1,
+    "name": "Taste of Italys",
+    "description": "Authentic Italian restaurant with a wide selection of pasta and pizza dishes.",
+    "location": "123 Main Street, Atlanta, USA",
+    "rating": 4.6
+  }
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
-      <Route path="wingstop" element={<ResturantLayout />} />
+      <Route path="wingstop" element={<ResturantLayout data={data} />} />
       <Route path="about" element={<About />} />
       <Route path="help" element={<HelpLayout />}>
         <Route path="faq" element={<Faq />} />
